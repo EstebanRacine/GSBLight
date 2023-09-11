@@ -42,7 +42,7 @@ CREATE TABLE `table_intra` (
 
 LOCK TABLES `table_intra` WRITE;
 /*!40000 ALTER TABLE `table_intra` DISABLE KEYS */;
-INSERT INTO `table_intra` VALUES (0,'Test1'),(0,'Test2'),(0,'Test3');
+INSERT INTO `table_intra` VALUES (1,'Test1'),(2,'Test2');
 /*!40000 ALTER TABLE `table_intra` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -55,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-09-06 15:58:16
+-- Dump completed on 2023-09-11 14:33:28
